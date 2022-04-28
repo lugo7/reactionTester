@@ -1,30 +1,57 @@
-body{
-  display: block;
-  font-family: Veranda, Geneva, sans-serif;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  color: white;
-}
-header{
-  background-color: #06406C;
+*{
   margin: 0 auto;
   padding: 0;
-  width: 100%;
-  height: 200px;
-  top: -10px;
 }
+
+body{
+  font-family: Veranda, Geneva, sans-serif;
+  background: #dfdfdf;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background: #aaaaaa;
+}
+
 h1{
   margin: 0 auto;
+  padding: 5px 0 0 20px;
 }
+
+#info{
+  text-align: center;
+}
+
+#info p{
+  font-size: 1.8em;
+  padding: 15px 0;
+}
+
 #playArea{
-  width: 100%;
-  height: 745px;
-  border: 50px solid #292929;
-  box-sizing: border-box;
-  overflow: hidden;
-  background-color: #333333;
+  width: 75%;
+  height: 700px;
+  background: #aaaaaa;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
+
+#overlay{
+  width:100%;
+  height:100%;
+  background: radial-gradient(#666666aa,#222222aa);
+}
+
+#playArea button{
+  width: 120px;
+  height: 50px;
+  margin-left: 47%;
+  margin-top: 23%;
+  font-size: 2em;
+  background: #444444;
+  color: #fef;
+}
+
 #box{
   position: fixed;
   width:100px;
@@ -32,24 +59,22 @@ h1{
   background-color: blue;
   display: none;
 }
-#left{
-  float: left;
-  margin: 10px 0 0 30px;
-  padding-top: 30px;
-  padding-left: 100px;
-}
-#right{
-  float: right;
-  width: 600px;
-  margin: 20px 0 0 0;
-}
+
 #scoreboard{
   border: 1px solid black;
-  background-color: #391568;
-  color: white;
+  border-spacing: 0px;
 }
+
 td{
-  width: 90px;
+  width: 140px;
   text-align: center;
-  border-top: 1px solid black;
+  padding: 5px;
+}
+
+.odd{
+  background: #aaaaaa;
+}
+
+.even{
+  background: #868686;
 }
