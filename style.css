@@ -11,7 +11,8 @@ body{
 header{
   width: 100%;
   height: 50px;
-  background: #aaaaaa;
+  background: #00171f;
+  color: #ffffff;
 }
 
 h1{
@@ -31,7 +32,7 @@ h1{
 #playArea{
   width: 75%;
   height: 700px;
-  background: #aaaaaa;
+  background: radial-gradient(#007ea7,#003459);
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -39,7 +40,7 @@ h1{
 #overlay{
   width:100%;
   height:100%;
-  background: radial-gradient(#666666aa,#222222aa);
+  background: radial-gradient(#007ea7aa,#003459aa);
 }
 
 #playArea button{
@@ -49,7 +50,7 @@ h1{
   margin-top: 23%;
   font-size: 2em;
   background: #444444;
-  color: #fef;
+  color: #ffffff;
 }
 
 #box{
@@ -69,12 +70,13 @@ td{
   width: 140px;
   text-align: center;
   padding: 5px;
+  color:#ffffff;
 }
 
 .odd{
-  background: #aaaaaa;
+  background: #003459;
 }
 
 .even{
-  background: #868686;
+  background:#194869;
 }
